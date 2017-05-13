@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.mymusicapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:fullBackupContent="true">
+        <!--Parent(Main/Home) activity-->
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--Children activities-->
+        <activity android:name=".PlaylistsActivity"
+            android:label="My playlists" />
+        <activity android:name=".SearchActivity"
+            android:label="Search" />
+        <activity android:name=".SongsActivity"
+            android:label="My songs" />/>
+        <activity android:name=".BuyActivity"
+            android:label="Buy Music" />
+        <activity android:name=".PlayActivity"
+            android:label="Now Playing"/>
+    </application>
+
+</manifest>

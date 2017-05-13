@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Category bars in Home Screen -->
+    <style name="CategoryName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/category_padding</item>
+        <item name="android:textSize">@dimen/category_text_size</item>
+    </style>
+
+    <!-- Text View style that has a description inside each child activity -->
+    <style name="CategoryActivityTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textSize_single_textView</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">@dimen/padding_single_textView</item>
+    </style>
+
+    <!-- Linear Layout of each child activity -->
+    <style name="ChildLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+</resources>

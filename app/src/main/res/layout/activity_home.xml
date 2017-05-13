@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.android.mymusicapp.HomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/image_play_now"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/middle_line"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/text_search"
+            style="@style/CategoryName"
+            android:layout_above="@id/middle_line"
+            android:layout_marginTop="@dimen/category_top_margin"
+            android:background="@color/colorPrimary"
+            android:gravity="end"
+            android:text="@string/category_search"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/text_playlists"
+            style="@style/CategoryName"
+            android:layout_above="@id/text_search"
+            android:background="@color/colorAccent"
+            android:text="@string/category_my_playlists"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/text_my_songs"
+            style="@style/CategoryName"
+            android:layout_below="@id/middle_line"
+            android:layout_marginTop="@dimen/category_top_margin"
+            android:background="@color/colorAccent"
+            android:text="@string/category_my_songs"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/text_buy_music"
+            style="@style/CategoryName"
+            android:layout_below="@id/text_my_songs"
+            android:layout_marginTop="@dimen/category_top_margin"
+            android:background="@color/colorPrimary"
+            android:gravity="end"
+            android:text="@string/category_buy_music"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+
+    <ImageView
+        android:contentDescription="@string/image_play_description"
+        android:id="@+id/image_play_now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/circle_shape"
+        android:src="@mipmap/ic_play_arrow_white_48dp" />
+
+</RelativeLayout>

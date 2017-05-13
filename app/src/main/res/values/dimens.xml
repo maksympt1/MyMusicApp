@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="category_text_size">50sp</dimen>
+    <dimen name="category_padding">5dp</dimen>
+    <dimen name="category_top_margin">5dp</dimen>
+    <dimen name="padding_single_textView">10dp</dimen>
+    <dimen name="textSize_single_textView">20sp</dimen>
+</resources>

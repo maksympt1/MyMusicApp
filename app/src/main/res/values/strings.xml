@@ -1,0 +1,40 @@
+<resources>
+    <!-- Activity names -->
+    <string name="app_name">My Music App</string>
+    <string name="category_search">Search</string>
+    <string name="category_my_playlists">My playlists</string>
+    <string name="category_my_songs">My songs</string>
+    <string name="category_buy_music">Buy music</string>
+
+    <!--Description of each activity-->
+    <string name="description_activity_playlists">In this section you can choose amongst different
+        playlists that you previously created and listen to its content. By selecting a playlist,
+    you are taken to the Play Activity.</string>
+
+    <string name="description_activity_search">Here you can search for a specific song, band, or
+        album. It\'s different from Songs Activity because it will not play in loop all the
+        songs from your library. It will only play your search results! \n \nYou will be redirected to
+    the PlayActivity where your search result will be played.</string>
+
+    <string name="description_activity_songs">This Activity will have a full list of user\'s songs,
+        sorted in alphabetical order. Additionally you can sort them by Artist or Album. \n \nWhen you
+        select something, you will be taken to Activity Play and it will play it, and everything that
+        comes next by alphabetical order, until the last element in the alphabetical list.</string>
+
+    <string name="description_activity_buy">In this Activity you can discover popular/trending songs,
+        new releases, and buy them. They will be automatically added to your library. \n \nTo buy a song,
+        the app will access an In-app Billing service using an API exposed by the Google Play app.
+        It will make the experience easy, fast and reliable.</string>
+
+    <string name="description_activity_play">In this activity I want to have an on-going music player.
+        If this Activity is assessed through the Home (Main) Screen, it resumes the previously paused music,
+        and if there is no process associated, it starts with a random song from your library.
+    \n \nThis activity receives the user being redirected from Home, Playlists, Songs and Search activities.</string>
+
+    <!--Buttons-->
+    <string name="button_play_playlist">Play this playlist</string>
+    <string name="button_play_search">Play these search results</string>
+    <string name="button_play_songs">Play this song (and all that comes next)</string>
+    <string name="image_play_description">Play Button</string>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ChildLinearLayout"
+    tools:context="com.example.android.mymusicapp.PlaylistsActivity">
+
+    <TextView
+        style="@style/CategoryActivityTextView"
+        android:text="@string/description_activity_playlists" />
+
+    <Button
+        android:id="@+id/button_play_playlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_play_playlist" />
+
+</LinearLayout>
